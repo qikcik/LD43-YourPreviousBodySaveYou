@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="500" tilewidth="1" tileheight="1" nextobjectid="64">
+ <objectgroup name="WORLD">
+  <properties>
+   <property name="Desc1" value="yes, it's my level, you have to think a little bit to pass level now"/>
+   <property name="Desc2" value="the programmer went home, and I was left alone. ... I wonder what it's for?"/>
+   <property name="Gravity" type="int" value="10"/>
+   <property name="Name" value="My level"/>
+   <property name="SizeX" type="int" value="61"/>
+   <property name="SizeY" type="int" value="25"/>
+  </properties>
+  <object id="2" name="SIZE" x="61" y="25">
+   <polygon points="0,0 0,1 1,1 1,0"/>
+  </object>
+  <object id="4" type="WALL" x="19" y="17">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="6" type="WALL" x="24" y="17">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="10" type="WALL" x="40" y="17">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="18" type="RESPAWN" x="9" y="21">
+   <properties>
+    <property name="JumpForce" type="float" value="6"/>
+   </properties>
+   <polygon points="0,0 0,-1 6,-1 6,0"/>
+  </object>
+  <object id="19" type="WALL" x="32" y="17">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="20" type="WALL" x="48" y="17">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="22" type="NORMAL" x="48" y="24">
+   <polygon points="0,0 0,-2 4,-2 4,0"/>
+  </object>
+  <object id="25" type="NORMAL" x="19" y="24">
+   <polygon points="-17,0 -17,-2 29,-2 29,0"/>
+  </object>
+  <object id="29" type="NORMAL" x="16" y="16">
+   <polygon points="0,0 -2,2 -4,2 -4,0 -2,-2 0,-2"/>
+  </object>
+  <object id="33" type="WALL" x="2" y="21">
+   <polygon points="0,3 -2,1 -2,-19 0,-21"/>
+  </object>
+  <object id="34" type="WALL" x="2" y="0">
+   <polygon points="0,0 50,0 50,2 0,2"/>
+  </object>
+  <object id="35" type="WALL" x="52" y="0">
+   <polygon points="0,0 0,16 2,16 2,2"/>
+  </object>
+  <object id="38" type="WALL" x="54" y="14">
+   <polygon points="0,0 4,0 6,2 0,2"/>
+  </object>
+  <object id="39" type="WALL" x="60" y="16">
+   <polygon points="0,0 0,6 -2,6 -2,0"/>
+  </object>
+  <object id="40" type="NORMAL" x="60" y="22">
+   <polygon points="0,0 -2,2 -8,2 -8,0"/>
+  </object>
+  <object id="45" type="NORMAL" x="19" y="16">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="46" type="NORMAL" x="27" y="16">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="47" type="NORMAL" x="35" y="16">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="48" type="NORMAL" x="43" y="16">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="49" type="NORMAL" x="51" y="16">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="56" type="SHOOTER" x="21" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="3"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="57" type="SHOOTER" x="29" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="3"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="58" type="SHOOTER" x="37" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="3"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="59" type="SHOOTER" x="45" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="3"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="61" type="NORMAL" x="2" y="18">
+   <polygon points="0,-2 7,4 0,4"/>
+  </object>
+  <object id="62" type="WIN" x="56" y="16">
+   <polygon points="0,0 2,0 2,6 0,6"/>
+  </object>
+ </objectgroup>
+</map>

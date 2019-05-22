@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="5" tileheight="5" nextobjectid="196">
+ <objectgroup name="WORLD">
+  <properties>
+   <property name="Desc1" value="it's pretty cool this level"/>
+   <property name="Desc2" value="- but I would have done better anyway"/>
+   <property name="Gravity" type="int" value="10"/>
+   <property name="Name" value="Cretive level name"/>
+   <property name="SizeX" type="int" value="115"/>
+   <property name="SizeY" type="int" value="75"/>
+  </properties>
+  <object id="17" name="player" type="RESPAWN" x="15" y="15">
+   <polygon points="0,0 0,5 5,5 5,0"/>
+  </object>
+  <object id="20" name="WorldSize" x="115" y="75">
+   <polygon points="0,0 0,5 5,5 5,0"/>
+  </object>
+  <object id="157" type="KILL" x="45" y="60">
+   <polygon points="0,0 40,0 40,5 5,5"/>
+  </object>
+  <object id="158" type="KILL" x="45" y="10">
+   <polygon points="5,0 10,5 45,5 50,0"/>
+  </object>
+  <object id="160" type="NORMAL" x="95" y="30">
+   <polygon points="0,0 10,-10 15,-10 15,0"/>
+  </object>
+  <object id="164" type="WALL" x="95" y="70">
+   <polygon points="0,0 -5,0 -5,-5 0,-10"/>
+  </object>
+  <object id="165" type="WALL" x="90" y="70">
+   <polygon points="0,0 -50,0 -50,-5 0,-5"/>
+  </object>
+  <object id="166" type="KILL" x="45" y="60">
+   <polygon points="0,0 0,-35 -5,-30 -5,-5"/>
+  </object>
+  <object id="168" type="KILL" x="95" y="30">
+   <polygon points="0,0 5,5 5,25 0,30"/>
+  </object>
+  <object id="171" type="WALL" x="95" y="30">
+   <polygon points="0,0 5,5 15,5 15,0"/>
+  </object>
+  <object id="173" type="WALL" x="100" y="35">
+   <polygon points="0,0 0,20 10,20 10,0"/>
+  </object>
+  <object id="174" type="WALL" x="50" y="65">
+   <polygon points="0,0 -10,-10 -10,0"/>
+  </object>
+  <object id="175" type="WALL" x="40" y="30">
+   <polygon points="0,0 -35,0 -35,-5 5,-5"/>
+  </object>
+  <object id="176" type="WALL" x="5" y="30">
+   <polygon points="0,0 0,35 35,35 35,0"/>
+  </object>
+  <object id="178" type="WALL" x="5" y="65">
+   <polygon points="0,0 5,5 35,5 35,0"/>
+  </object>
+  <object id="179" type="WALL" x="95" y="60">
+   <polygon points="0,0 0,10 10,10 15,5 15,0 15,-5 5,-5"/>
+  </object>
+  <object id="182" type="WALL" x="90" y="15">
+   <polygon points="0,0 5,0 10,-5 5,-5"/>
+  </object>
+  <object id="184" type="WALL" x="110" y="10">
+   <polygon points="0,0 -5,-5 -5,10 0,10"/>
+  </object>
+  <object id="185" type="WALL" x="105" y="10">
+   <polygon points="0,0 -100,0 -95,-5 0,-5"/>
+  </object>
+  <object id="186" type="WALL" x="5" y="10">
+   <polygon points="0,0 0,10 5,10 5,0"/>
+  </object>
+  <object id="187" type="WALL" x="45" y="10">
+   <polygon points="0,0 5,5 10,5 5,0"/>
+  </object>
+  <object id="188" type="WIN" x="100" y="10">
+   <polygon points="0,0 0,15 5,10 5,5"/>
+  </object>
+  <object id="189" type="NORMAL" x="5" y="20">
+   <polygon points="0,0 35,0 40,5 0,5"/>
+  </object>
+  <object id="191" type="JUMPER" x="85" y="60">
+   <polygon points="0,0 10,0 5,5 0,5"/>
+  </object>
+  <object id="194" type="NORMAL" x="100" y="10">
+   <polygon points="0,0 5,5 5,0"/>
+  </object>
+  <object id="195" type="WIN" x="100" y="10">
+   <polygon points="0,0 -5,5 0,10"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="500" tilewidth="1" tileheight="1" nextobjectid="64">
+ <objectgroup name="WORLD">
+  <properties>
+   <property name="Desc1" value="the last level ... there should be minimum 30,"/>
+   <property name="Desc2" value="but the programmer broke everything"/>
+   <property name="Gravity" type="int" value="10"/>
+   <property name="Name" value="Impassable"/>
+   <property name="SizeX" type="int" value="61"/>
+   <property name="SizeY" type="int" value="33"/>
+  </properties>
+  <object id="2" name="SIZE" x="61" y="33">
+   <polygon points="0,0 0,1 1,1 1,0"/>
+  </object>
+  <object id="4" type="WALL" x="19" y="14">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="6" type="WALL" x="24" y="14">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="10" type="WALL" x="40" y="14">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="18" type="RESPAWN" x="9" y="18">
+   <polygon points="0,0 0,-1 6,-1 6,0"/>
+  </object>
+  <object id="19" type="WALL" x="32" y="14">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="20" type="WALL" x="48" y="14">
+   <polygon points="0,-1 0,-2 4,-2 4,-1"/>
+  </object>
+  <object id="21" type="NORMAL" x="32" y="21">
+   <polygon points="0,9 0,-2 4,-2 4,9"/>
+  </object>
+  <object id="22" type="NORMAL" x="48" y="21">
+   <polygon points="0,0 0,-2 4,-2 4,0"/>
+  </object>
+  <object id="23" type="NORMAL" x="24" y="21">
+   <polygon points="0,9 0,-2 4,-2 4,9"/>
+  </object>
+  <object id="24" type="NORMAL" x="40" y="21">
+   <polygon points="0,9 0,-2 4,-2 4,9"/>
+  </object>
+  <object id="25" type="NORMAL" x="19" y="21">
+   <polygon points="-17,0 -17,-2 1,-2 1,0"/>
+  </object>
+  <object id="29" type="NORMAL" x="16" y="13">
+   <polygon points="0,0 -2,2 -4,2 -4,0 -2,-2 0,-2"/>
+  </object>
+  <object id="30" type="WALL" x="52" y="21">
+   <polygon points="0,0 0,9 -2,9 -2,0"/>
+  </object>
+  <object id="31" type="KILL" x="50" y="30">
+   <polygon points="0,0 -30,0 -30,2 0,2"/>
+  </object>
+  <object id="32" type="WALL" x="20" y="30">
+   <polygon points="0,0 -2,0 -2,-9 0,-9"/>
+  </object>
+  <object id="33" type="WALL" x="2" y="21">
+   <polygon points="0,0 -2,-2 -2,-19 0,-21"/>
+  </object>
+  <object id="34" type="WALL" x="2" y="0">
+   <polygon points="0,0 50,0 50,2 0,2"/>
+  </object>
+  <object id="35" type="WALL" x="52" y="0">
+   <polygon points="0,0 0,13 2,13 2,2"/>
+  </object>
+  <object id="38" type="WALL" x="54" y="11">
+   <polygon points="0,0 4,0 6,2 0,2"/>
+  </object>
+  <object id="39" type="WALL" x="60" y="13">
+   <polygon points="0,0 0,6 -2,6 -2,0"/>
+  </object>
+  <object id="40" type="NORMAL" x="60" y="19">
+   <polygon points="0,0 -2,2 -8,2 -8,0"/>
+  </object>
+  <object id="43" type="WALL" x="50" y="32">
+   <polygon points="0,0 2,-2 0,-2"/>
+  </object>
+  <object id="44" type="WALL" x="18" y="30">
+   <polygon points="0,0 2,2 2,0"/>
+  </object>
+  <object id="45" type="NORMAL" x="19" y="13">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="46" type="NORMAL" x="27" y="13">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="47" type="NORMAL" x="35" y="13">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="48" type="NORMAL" x="43" y="13">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="49" type="NORMAL" x="51" y="13">
+   <polygon points="-3,-1 -3,-2 1,-2 1,-1"/>
+  </object>
+  <object id="51" type="SHOOTER" x="21" y="27">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="-4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="53" type="SHOOTER" x="29" y="27">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="-4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="54" type="SHOOTER" x="37" y="27">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="-4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="55" type="SHOOTER" x="45" y="27">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="-4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="56" type="SHOOTER" x="21" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="57" type="SHOOTER" x="29" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="58" type="SHOOTER" x="37" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="59" type="SHOOTER" x="45" y="3">
+   <properties>
+    <property name="SpeedX" type="int" value="0"/>
+    <property name="SpeedY" type="int" value="4"/>
+   </properties>
+   <polygon points="0,0 0,2 2,2 2,0"/>
+  </object>
+  <object id="61" type="NORMAL" x="2" y="15">
+   <polygon points="0,-2 7,4 0,4"/>
+  </object>
+  <object id="62" type="WIN" x="56" y="13">
+   <polygon points="0,0 2,0 2,6 0,6"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="5" tileheight="5" nextobjectid="23">
+ <objectgroup name="WORLD">
+  <properties>
+   <property name="Desc1" value="Yes, This game have irritating tuturial ..."/>
+   <property name="Desc2" value="... Just press left arrow key :)"/>
+   <property name="Gravity" type="int" value="10"/>
+   <property name="Name" value="Tutorial"/>
+   <property name="SizeX" type="int" value="130"/>
+   <property name="SizeY" type="int" value="50"/>
+  </properties>
+  <object id="3" type="NORMAL" x="0" y="0">
+   <polygon points="5,0 120,0 125,5 0,5"/>
+  </object>
+  <object id="4" type="NORMAL" x="120" y="5">
+   <polygon points="0,0 0,35 5,35 5,0"/>
+  </object>
+  <object id="5" type="NORMAL" x="0" y="5">
+   <polygon points="0,0 0,35 5,35 5,0"/>
+  </object>
+  <object id="6" type="NORMAL" x="0" y="40">
+   <polygon points="0,0 5,5 120,5 125,0"/>
+  </object>
+  <object id="7" type="NORMAL" x="5" y="5">
+   <polygon points="0,0 0,5 5,0"/>
+  </object>
+  <object id="8" type="NORMAL" x="115" y="5">
+   <polygon points="0,0 5,5 5,0"/>
+  </object>
+  <object id="11" type="NORMAL" x="120" y="35">
+   <polygon points="0,0 -5,5 0,5"/>
+  </object>
+  <object id="15" type="NORMAL" x="5" y="35">
+   <polygon points="0,0 5,5 0,5"/>
+  </object>
+  <object id="16" type="WIN" x="110" y="5">
+   <polygon points="0,0 0,35 5,35 10,30 10,5 5,0"/>
+  </object>
+  <object id="17" name="player" type="RESPAWN" x="15" y="30">
+   <properties>
+    <property name="JumpForce" type="float" value="0"/>
+   </properties>
+   <polygon points="0,0 0,5 5,5 5,0"/>
+  </object>
+  <object id="20" name="WorldSize" x="130" y="50">
+   <polygon points="0,0 0,5 5,5 5,0"/>
+  </object>
+ </objectgroup>
+</map>

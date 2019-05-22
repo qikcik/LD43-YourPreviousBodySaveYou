@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="5" tileheight="5" nextobjectid="86">
+ <objectgroup name="WORLD">
+  <properties>
+   <property name="Desc1" value="i broke the game, but thanks to this, i made good level"/>
+   <property name="Desc2" value="What am I doing here? .. what if i change this?"/>
+   <property name="Gravity" type="int" value="-10"/>
+   <property name="Name" value="inverted gravity"/>
+   <property name="SizeX" type="int" value="185"/>
+   <property name="SizeY" type="int" value="105"/>
+  </properties>
+  <object id="3" type="KILL" x="0" y="0">
+   <polygon points="5,0 175,0 180,5 0,5"/>
+  </object>
+  <object id="4" type="NORMAL" x="175" y="10">
+   <polygon points="0,-5 0,90 5,90 5,-5"/>
+  </object>
+  <object id="5" type="NORMAL" x="0" y="10">
+   <polygon points="0,-5 0,90 5,90 5,-5"/>
+  </object>
+  <object id="6" type="WALL" x="0" y="100">
+   <polygon points="0,0 5,5 175,5 180,0"/>
+  </object>
+  <object id="17" name="player" type="RESPAWN" x="10" y="20">
+   <properties>
+    <property name="JumpForce" type="float" value="22"/>
+   </properties>
+   <polygon points="0,-5 0,0 5,0 5,-5"/>
+  </object>
+  <object id="38" type="NORMAL" x="120" y="10">
+   <polygon points="5,0 40,0 40,-5 0,-5"/>
+  </object>
+  <object id="44" type="KILL" x="105" y="30">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="45" type="KILL" x="90" y="35">
+   <polygon points="0,0 -15,0 -15,-5 0,-5"/>
+  </object>
+  <object id="46" type="KILL" x="60" y="35">
+   <polygon points="0,0 -15,0 -15,-5 0,-5"/>
+  </object>
+  <object id="47" type="NORMAL" x="90" y="30">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="48" type="NORMAL" x="75" y="35">
+   <polygon points="0,0 -15,0 -15,-5 0,-5"/>
+  </object>
+  <object id="49" type="NORMAL" x="45" y="35">
+   <polygon points="0,0 -40,0 -40,-5 0,-5"/>
+  </object>
+  <object id="52" type="NORMAL" x="35" y="35">
+   <polygon points="0,0 -15,15 -30,15 -30,0"/>
+  </object>
+  <object id="58" type="NORMAL" x="60" y="55">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="59" type="NORMAL" x="75" y="60">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="60" type="NORMAL" x="90" y="55">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="61" type="NORMAL" x="105" y="60">
+   <polygon points="0,0 0,5 15,5 15,0"/>
+  </object>
+  <object id="62" type="JUMPER" x="120" y="55">
+   <polygon points="0,0 0,5 20,5 20,0"/>
+  </object>
+  <object id="63" type="NORMAL" x="140" y="55">
+   <polygon points="0,0 0,45 5,45 5,0"/>
+  </object>
+  <object id="69" type="JUMPER" x="160" y="10">
+   <polygon points="0,0 15,0 15,-5 0,-5"/>
+  </object>
+  <object id="71" type="NORMAL" x="5" y="5">
+   <polygon points="0,0 0,5 10,5 15,0"/>
+  </object>
+  <object id="73" type="SHOOTER" x="140" y="70">
+   <properties>
+    <property name="SpeedX" type="int" value="-8"/>
+    <property name="SpeedY" type="int" value="0"/>
+   </properties>
+   <polygon points="0,0 -5,0 -5,5 0,5"/>
+  </object>
+  <object id="75" type="NORMAL" x="160" y="20">
+   <polygon points="0,0 0,55 -5,55 -5,0"/>
+  </object>
+  <object id="76" type="NORMAL" x="120" y="30">
+   <polygon points="0,0 0,5 35,5 35,0"/>
+  </object>
+  <object id="77" type="NORMAL" x="60" y="60">
+   <polygon points="0,0 0,5 -15,5 -15,0"/>
+  </object>
+  <object id="78" type="NORMAL" x="45" y="60">
+   <polygon points="0,0 0,-5 -10,-5 -10,0"/>
+  </object>
+  <object id="82" type="WIN" x="140" y="95">
+   <polygon points="0,0 -15,0 -15,5 0,5"/>
+  </object>
+  <object id="84" type="WALL" x="120" y="95">
+   <polygon points="0,0 0,5 5,5 5,0"/>
+  </object>
+ </objectgroup>
+</map>
